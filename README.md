@@ -1,4 +1,4 @@
-# PORTFOLIO WEBSIT
+# Portfolio Website
 
 Portfolio website that provides basic details about me.
 
