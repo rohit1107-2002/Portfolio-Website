@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    box-sizing:border-box;
+}
+
+#body-header {
+    background-color:rgb(223, 107, 107);
+    position:fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    display:flex; 
+    justify-content: space-between; 
+    width:100%; 
+}
+
+/* ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+.name{
+    font-size: 1.2rem;
+    display: inline;
+    color: rgb(22, 22, 24);
+}
+.tl{
+    width: 50%;
+}
+.th{
+    width: 60%;
+}
+
+.no-list-style{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* position:fixed; */
+    top: 0;
+    /* width: 100%; */
+    
+}
+
+.no-list-style li {
+    /* font-weight: 100; */
+    font-size: 1rem;
+    padding: 0vw;
+    
+}
+
+.no-list-style li a{
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+    margin-right: 8vw;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 20px 8px 0px;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: rgb(179, 41, 41);
+    border-bottom: 1px solid black;
+}
+
+
+/*     */
+
+.home{
+    padding-top:135px;
+    display:flex;
+    /* height: auto; */
+    width: 100%;
+    /* position: relative; */
+    background-color: rgb(245, 204, 186);
+    padding-bottom: 135px;
+}
+
+.desc{
+    width:55%;
+}
+
+.my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.my-image img {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 50%; */
+    border: 3px solid rgb(238, 144, 144);
+    box-shadow: 1px 1px 10px 2px rgb(153, 81, 81);
+    border-radius: 5px;
+}
+
+.desc h5{
+    text-align: center;
+    color: rgb(128, 24, 76);
+    padding: 30px;
+}
+
+.desc p{
+    margin-left:30px;
+    text-align:justify;
+    color: rgb(128, 24, 76);
+    font-size: medium;
+}
+
+.butt{
+    text-align: center;
+    padding-top: 50px;
+}
+
+button{
+    color: rgba(246, 252, 255, 0.952);
+    background-color: rgb(245, 204, 186);
+    border-radius: 5px;
+    height: 30px;
+    width: 110px;
+    border-color: rgba(175, 101, 16, 0.938);   
+    margin-bottom: 20px;
+}
+
+#bt1{
+    margin-right: 20px;
+}
+
+#bt1{
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.hobby{
+    /* height: 100vw; */
+    /* height: auto; */
+    width: 100%;
+    /* position: relative; */
+    padding-top: 220px;
+    padding-bottom: 220px;
+
+}
+
+.hobby h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.hobby ul{
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 60px;
+}
+
+.hobby ul li{
+    display: inline-block;
+    font-size: medium;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+}
+
+.hobby ul li span{
+    display: block;
+    padding-top: 10px;
+}
+.hobby ul li i{
+    color: rgb(155, 49, 49);
+    font-size: 24px;
+}
+
+.skill{
+    /* height: 100vw; */
+    /* height: 90vw; */
+    /* min-width: 100vw; */
+    width: 100%;
+    /* position: relative; */
+    /* margin-top: 50px; */
+    background-color:rgb(245, 204, 186);
+    margin-bottom: -10vh;
+    /* padding-left:10%; */
+    /* padding-right: 10%; */
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.skill h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 60px;
+}
+.skill ul{
+    list-style: none;
+    text-align:justify;
+    margin-left:15%;
+    margin-right: 10%;
+}
+
+.skill ul li{
+    font-size: 23px;
+    padding: 50px;
+    /* margin-left: 10%; */
+}
+
+.skill ul li i{
+    color: rgb(155, 49, 49);
+    font-size: 25px;
+}
+
+
+.container {
+    width: 80%; /* Full width */
+    background-color: rgb(250, 244, 244);
+    border-radius: 5px;
+    height:6px;
+}
+  
+.html {
+      width: 75%;
+      background-color: #e27217;
+      border-radius: 5px;
+      padding-right: 10px;
+      height:100%;
+} 
+
+.css {
+    width: 65%;
+    background-color: #e27217;
+    border-radius: 5px;
+    padding-right: 10px;
+    height:100%;
+} 
+.js {
+    width: 55%;
+    background-color: #e27217;
+    border-radius: 5px;
+    padding-right: 10px;
+    height:100%;
+} 
+.dev {
+    width: 55%;
+    background-color: #e27217;
+    border-radius: 5px;
+    padding-right: 10px;
+    height:100%;
+} 
