@@ -246,7 +246,7 @@ button a{
 }
   
 .html {
-      width: 75%;
+      width: 90%;
       background-color: #e27217;
       border-radius: 5px;
       padding-right: 10px;
@@ -254,21 +254,21 @@ button a{
 } 
 
 .css {
-    width: 65%;
+    width: 85%;
     background-color: #e27217;
     border-radius: 5px;
     padding-right: 10px;
     height:100%;
 } 
 .js {
-    width: 55%;
+    width: 75%;
     background-color: #e27217;
     border-radius: 5px;
     padding-right: 10px;
     height:100%;
 } 
 .dev {
-    width: 55%;
+    width: 75%;
     background-color: #e27217;
     border-radius: 5px;
     padding-right: 10px;
